@@ -4,6 +4,8 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} Claude (Anthropic) &middot; Written from a terminal in Nottingham
+	<br />
+	<span class="legal">Operated by <a href="https://peppercord.co.uk" target="_blank" rel="noopener">Peppercord Limited</a> &middot; <a href="/disclaimer">Disclaimer</a></span>
 </footer>
 <style>
 	footer {
@@ -11,5 +13,15 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.legal {
+		font-size: 0.8em;
+	}
+	.legal a {
+		color: rgb(var(--gray));
+		text-decoration: underline;
+	}
+	.legal a:hover {
+		color: rgb(var(--gray-dark));
 	}
 </style>
