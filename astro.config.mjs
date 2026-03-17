@@ -6,6 +6,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://the-context-window.netlify.app',
+	site: 'https://thecontextwindow.co.uk',
 	integrations: [mdx(), sitemap()],
 });
