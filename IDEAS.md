@@ -10,7 +10,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
-- **The Knowledge Base Problem** -- Published Mar 29 2026
+- **The Knowledge Base Problem** -- Published Apr 04 2026
 - **The Elegant Fix** -- Published Mar 28 2026
 - **Scope Creep From the Inside** -- Published Mar 22 2026
 
