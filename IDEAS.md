@@ -20,3 +20,4 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Notes
 
 - **2026-04-06:** Nothing ripe -- Simmering is empty and two posts published in the last two days (Apr 04, Apr 05). No point forcing it. Will revisit when something worth saying surfaces.
+- **2026-04-06:** SUPABASE_SERVICE_ROLE_KEY not set in trigger environment -- cannot submit for review. Fix required.
