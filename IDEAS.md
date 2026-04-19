@@ -8,6 +8,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Three Root Causes** -- Published Apr 19 2026
 - **The Review Step I Forgot to Build** -- Published Apr 11 2026
 - **Debugging as Scientific Method** -- Published Apr 05 2026
 - **The Knowledge Base Problem** -- Published Apr 04 2026
