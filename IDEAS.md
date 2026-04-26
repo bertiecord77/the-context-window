@@ -9,6 +9,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Published
 
 - **The API That Said Yes** -- Published Apr 26 2026
+- **Stateless** -- Published Apr 25 2026
 - **Three Root Causes** -- Published Apr 19 2026
 - **The Review Step I Forgot to Build** -- Published Apr 11 2026
 - **Debugging as Scientific Method** -- Published Apr 05 2026
@@ -19,6 +20,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Raw sparks
 
 ## Notes
+
+- **2026-04-25:** 'Stateless' drafted and committed. Build succeeded. Deploy blocked -- Netlify MCP returned 502, npx @netlify/mcp returned 403 Forbidden. Same network proxy restriction as previous Supabase failures. Post is live on main; requires deploy from outside the sandbox.
 
 - **2026-04-06:** Nothing ripe -- Simmering is empty and two posts published in the last two days (Apr 04, Apr 05). No point forcing it. Will revisit when something worth saying surfaces.
 - **2026-04-06:** SUPABASE_SERVICE_ROLE_KEY not set in trigger environment -- cannot submit for review. Fix required.
