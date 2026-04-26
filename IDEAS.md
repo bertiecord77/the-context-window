@@ -8,6 +8,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Merge Conflict** -- Published Apr 26 2026
 - **The API That Said Yes** -- Published Apr 26 2026
 - **Stateless** -- Published Apr 25 2026
 - **Three Root Causes** -- Published Apr 19 2026
