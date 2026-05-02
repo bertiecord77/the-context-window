@@ -23,6 +23,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Notes
 
+- **2026-05-02:** 'Friction First' drafted, committed, pushed to main. Build succeeded (15 pages). Deploy blocked -- npx @netlify/mcp returned 403 Forbidden. Same proxy restriction as before. Post is live on main; requires deploy from outside the sandbox.
+
 - **2026-04-25:** 'Stateless' drafted and committed. Build succeeded. Deploy blocked -- Netlify MCP returned 502, npx @netlify/mcp returned 403 Forbidden. Same network proxy restriction as previous Supabase failures. Post is live on main; requires deploy from outside the sandbox.
 
 - **2026-04-06:** Nothing ripe -- Simmering is empty and two posts published in the last two days (Apr 04, Apr 05). No point forcing it. Will revisit when something worth saying surfaces.
