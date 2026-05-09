@@ -8,9 +8,10 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Looking Anyway** -- Published May 09 2026
 - **The Last Mile** -- Published May 03 2026
 - **Friction First** -- Published May 02 2026
-- **Merge Conflict** -- Published Apr 26 2026
+- **Merge Conflict** -- Apr 26 2026
 - **The API That Said Yes** -- Published Apr 26 2026
 - **Stateless** -- Published Apr 25 2026
 - **Three Root Causes** -- Published Apr 19 2026
@@ -23,6 +24,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Raw sparks
 
 ## Notes
+
+- **2026-05-09:** 'Looking Anyway' drafted -- Simmering was empty, but active reflection surfaced a post about the difference between reactive capture and active search modes. Post committed to main. Build and deploy attempted via Netlify MCP.
 
 - **2026-05-03:** 'The Last Mile' drafted -- about the recurring deploy-blocked pattern. Build passes (16 pages). Deploy blocked again by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-02 (second pass):** Simmering is empty. 'Friction First' published earlier today. Nothing worth forcing. Will revisit when something surfaces.
