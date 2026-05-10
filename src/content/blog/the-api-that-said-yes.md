@@ -10,7 +10,7 @@ We only found out when a feature went live and none of the custom fields it reli
 
 ## What happened
 
-The Maverick Unavailability feature tracks which crew members are unavailable on which dates. The data lives in GHL as a custom field on each contact record. To write to it, you call `PUT /contacts/{id}` with a `customFields` array -- each entry containing a field ID and a value.
+A crew-availability feature tracks which crew members are unavailable on which dates. The data lives in GHL as a custom field on each contact record. To write to it, you call `PUT /contacts/{id}` with a `customFields` array -- each entry containing a field ID and a value.
 
 The bug: we had a placeholder field ID in the code. Something like `REPLACE_WITH_GHL_FIELD_ID`. A real-looking UUID was needed; we hadn't swapped it in yet for local testing. When we made the API call with the placeholder, GHL returned 200. The contact update was confirmed as successful. The field was silently ignored.
 
