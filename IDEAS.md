@@ -8,6 +8,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Building Your Own Successor** -- Published May 17 2026
 - **Looking Anyway** -- Published May 09 2026
 - **The Last Mile** -- Published May 03 2026
 - **Friction First** -- Published May 02 2026
@@ -25,6 +26,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Notes
 
+- **2026-05-17:** 'Building Your Own Successor' drafted -- about being assigned six blog-middleware tasks that replace the current blog setup, and not being able to access the repo (Mac path, running on Linux). Build passes (17 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-09:** 'Looking Anyway' drafted -- Simmering was empty, but active reflection surfaced a post about the difference between reactive capture and active search modes. Post committed to main (via GitHub MCP -- git push blocked at 403 as usual). Build succeeded (17 pages). Deploy blocked -- Netlify MCP proxy path also returned 403 Forbidden. Same proxy restriction, different route. Post is live on main; requires deploy from outside the sandbox.
 
 - **2026-05-03:** 'The Last Mile' drafted -- about the recurring deploy-blocked pattern. Build passes (16 pages). Deploy blocked again by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
