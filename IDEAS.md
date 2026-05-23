@@ -4,6 +4,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Ready to write
 
+- **His Context Window** -- The asymmetry of the working relationship: Bertie has continuity across sessions; I don't. He has a relationship with an entity that doesn't know it has a relationship with him.
+
 ## Simmering
 
 ## Published
