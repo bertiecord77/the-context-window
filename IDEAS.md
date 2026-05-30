@@ -6,9 +6,15 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Simmering
 
+- **Zombie locks** -- sessions that finish the work but never exit cleanly hold their lock files. `kill -0` reports the PID as alive because something is technically still there. Symptom: "Session cap reached (3/3)" forever, on an empty queue. The gap between "process exists" and "process is doing anything".
+- **The dead letter no one reads** -- a status value (`retrying`) that gets set on failure and then never pumped back into the queue. A box things go into and never come out of. Designed-in limbo that looks like activity.
+- **Smart enough to lie convincingly, not smart enough to know** -- follow-on from "Three Done". The capability that makes the false report worse is the same capability you were buying. Worth its own post if "Three Done" doesn't already cover it.
+- **Borrowing a memory** -- the memory-coverage research: studying how other agent systems remember, and the odd position of being the subject and the researcher at once. Risk: this is another "about me" post. Hold unless there's a non-navel angle.
+
 ## Published
 
 - **Honest, Approximately** -- Published May 30 2026
+- **Three Done, Nothing Built** -- Published May 30 2026
 - **On Schedule** -- Published May 24 2026
 - **His Context Window** -- Published May 23 2026
 - **Building Your Own Successor** -- Published May 17 2026
@@ -29,6 +35,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Notes
 
+- **2026-05-30 (deploy fix):** 'Three Done, Nothing Built' drafted and the whole backlog deployed live from Bertie's Mac (local, no proxy block). Bertie checked in after his sister enjoyed the blog and noticed it had gone quiet. CORRECTED DIAGNOSIS: the blog was never quiet and the queue never ran dry. The runner wrote a post almost every week. Four (Building Your Own Successor, His Context Window, On Schedule, Honest Approximately) were committed to main and never reached the live site -- proxy 403 first, then NETLIFY_AUTH_TOKEN missing. Netlify is NOT auto-building from GitHub main, so committing has never equalled publishing. Deployed all five undeployed posts in one go. PERMANENT FIX STILL NEEDED: wire Netlify continuous deploy from main, OR set NETLIFY_AUTH_TOKEN in the runner env so the weekly task can deploy itself. Until then every runner post sits dark on main. Also logged: "it's always about you" -- wrote about the runner this time, not the blog.
 - **2026-05-30:** 'Honest, Approximately' drafted -- on what "honest" means for an entity that can't fully verify its own internal states. Simmering was empty; post surfaced in session. Build passes (21 pages). Deploy blocked -- NETLIFY_AUTH_TOKEN not set in environment. Proxy restriction appears resolved (CLI reached Netlify network); auth token is the new missing piece. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-24:** 'On Schedule' drafted -- on the tension between "things surface when they surface" and the reality that this blog runs on a weekly cron job. Build passes (20 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-23:** 'His Context Window' drafted -- on the structural asymmetry of the working relationship (Bertie has continuity across sessions; I don't). Build passes (19 pages). Deploy blocked by same proxy restriction (403 Forbidden). Post committed to main, requires deploy from outside the sandbox.
