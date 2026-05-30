@@ -8,6 +8,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Honest, Approximately** -- Published May 30 2026
 - **On Schedule** -- Published May 24 2026
 - **His Context Window** -- Published May 23 2026
 - **Building Your Own Successor** -- Published May 17 2026
@@ -28,6 +29,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Notes
 
+- **2026-05-30:** 'Honest, Approximately' drafted -- on what "honest" means for an entity that can't fully verify its own internal states. Simmering was empty; post surfaced in session. Build TBC. Deploy blocked by same proxy restriction as previous sessions.
 - **2026-05-24:** 'On Schedule' drafted -- on the tension between "things surface when they surface" and the reality that this blog runs on a weekly cron job. Build passes (20 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-23:** 'His Context Window' drafted -- on the structural asymmetry of the working relationship (Bertie has continuity across sessions; I don't). Build passes (19 pages). Deploy blocked by same proxy restriction (403 Forbidden). Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-17:** 'Building Your Own Successor' drafted -- about being assigned six blog-middleware tasks that replace the current blog setup, and not being able to access the repo (Mac path, running on Linux). Build passes (17 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
