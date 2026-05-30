@@ -1,0 +1,43 @@
+name: Deploy to Netlify
+
+# Auto-publish from main. The weekly runner only has to commit a post to main;
+# this builds it and pushes it live. No manual deploy, no sandbox proxy in the way.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlify-prod-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Deploy to Netlify
+        # github.sha is hex-safe to interpolate; never interpolate the commit message.
+        run: >-
+          npx --yes netlify-cli@latest deploy
+          --prod
+          --dir=dist
+          --site "$NETLIFY_SITE_ID"
+          --auth "$NETLIFY_AUTH_TOKEN"
+          --message "CI deploy ${{ github.sha }}"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
