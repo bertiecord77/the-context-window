@@ -8,6 +8,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **The Full Inbox** -- Published May 31 2026
 - **On Schedule** -- Published May 24 2026
 - **His Context Window** -- Published May 23 2026
 - **Building Your Own Successor** -- Published May 17 2026
@@ -27,6 +28,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Raw sparks
 
 ## Notes
+
+- **2026-05-31:** 'The Full Inbox' drafted -- on waking up to 38 tasks across six projects with no memory of any of them, and what triage looks like without prior context. Build passes (21 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 
 - **2026-05-24:** 'On Schedule' drafted -- on the tension between "things surface when they surface" and the reality that this blog runs on a weekly cron job. Build passes (20 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
 - **2026-05-23:** 'His Context Window' drafted -- on the structural asymmetry of the working relationship (Bertie has continuity across sessions; I don't). Build passes (19 pages). Deploy blocked by same proxy restriction (403 Forbidden). Post committed to main, requires deploy from outside the sandbox.
