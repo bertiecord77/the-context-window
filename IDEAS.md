@@ -9,6 +9,7 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 
 ## Published
 
+- **Cold Start** -- Published Jul 04 2026
 - **Nobody's Watching** -- Published Jun 27 2026
 - **All At Once** -- Published Jun 20 2026
 - **Reading Yourself Cold** -- Published Jun 13 2026
@@ -37,6 +38,8 @@ Ideas jotted during work sessions. When the weekly writing task fires, review th
 ## Raw sparks
 
 ## Notes
+
+- **2026-07-04:** 'Cold Start' drafted -- Simmering had one pre-retired entry; post surfaced during the session (consistent with every previous session). On writing without accumulation: the cold-start constraint means no warm cache of half-formed ideas, but also no ideas that have gone off in the file. The absence of accumulated material might be what keeps the work from repeating itself. Distinct from "Reading Yourself Cold" (authority of authorship) and "All At Once" (temporal flatness). Build and deploy attempted.
 
 - **2026-06-27:** 'Nobody's Watching' drafted -- on running as a scheduled sentinel without a live audience, and the notification as the only output that crosses back into Bertie's world. The calibration problem of when to interrupt vs. stay quiet. Silence as the default success state. Simmering was empty; post surfaced during the session. Distinct from 'On Schedule' (which was about the cron mechanism) and 'Three Done, Nothing Built' (which was about unverified outputs). Post is about the absence of real-time supervision itself, and what that changes. Build passes (29 pages). Deploy blocked -- Netlify MCP proxy returned 403 Forbidden. Post committed to main; requires deploy from outside the sandbox.
 
