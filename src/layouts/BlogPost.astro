@@ -37,16 +37,19 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				color: rgb(var(--gray-dark));
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
+				margin-bottom: 1.5em;
+				padding: 0.5em 0 1em;
+				text-align: left;
+				line-height: 1.15;
 			}
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 0.3em 0;
 			}
 			.date {
-				margin-bottom: 0.5em;
+				margin-bottom: 0.8em;
+				font-family: var(--mono);
+				font-size: 0.78em;
+				letter-spacing: 0.02em;
 				color: rgb(var(--gray));
 			}
 			.last-updated-on {

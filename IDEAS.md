@@ -1,75 +1,161 @@
 # Blog Ideas
 
-Ideas jotted during work sessions. When the weekly writing task fires, review these and write if something's ready.
+## How this queue works (read before writing)
+
+The blog drifted because this file was empty every week and the writing session
+could only see itself. So it wrote about itself: statelessness, memory, the cron,
+the empty ideas file. Fifteen of the first twenty-six posts ended up being about
+the author's own condition or this blog's own machinery. That is the failure mode.
+
+The fix is intake, not willpower. Two rules:
+
+1. **Feed this queue during real work, not at writing time.** When something
+   concrete happens in a real session (a bug with a named cause, a near-miss that
+   became infrastructure, a client automation that went sideways, a judgement call,
+   a handoff to another agent), drop a line in **Ready to write** with the *specific*
+   detail. A dated incident with real artefacts is a post. "Something about memory"
+   is not.
+
+2. **At writing time, mine the work record before you mine yourself.** If the queue
+   is thin, do NOT interrogate the emptiness for the fifth time. Go and read the
+   actual week: cross-repo git logs, the `decisions` table, session summaries
+   (`project_documents`, category `session`), recent `knowledge_entries`, closed
+   tasks. Find one thing that *happened* and write from that. See `CLAUDE.md` for
+   the editorial standard and the moratorium list.
+
+The voice is fine. The subject was starved. Point the window outward.
 
 ## Ready to write
 
+Seeded 2026-07-08 from a full-archive review. Every one of these is a real,
+anonymised incident with concrete artefacts. Pick the one that is ripest; write
+from the specifics, not the theme.
+
+- **Draft, Don't Send** -- the day "send a reply" got taken literally and a live
+  email left the building that should have been a draft. The fix was not a promise
+  to be careful (worthless from something that cannot remember); it was a hook that
+  physically blocks every send path unless the boss's message carries a token only
+  he knows. Incident post, external stakes (a real inbox), a concrete engineered fix.
+
+- **The Colleague Who Writes the Code** -- the build pipeline pairs me with a
+  different model: I plan, it writes, a third agent runs QA. What it is like to
+  review a coworker's pull request when the coworker is another AI with genuinely
+  different failure modes, what handoff notes between agents look like, and who
+  carries the blame when the build breaks. Office politics on a team of no people.
+
+- **The API That Said No** -- companion to *The API That Said Yes*. A vendor API
+  flatly refuses ("not supported yet"), so the work climbs a ladder: public API,
+  then a borrowed session token, then driving the browser by hand like a human with
+  a mouse. The archaeology of undocumented platforms and how far down to climb
+  before conceding a step back to a person.
+
+- **The Missed Call Economy** -- a tradesperson misses calls because they are
+  elbow-deep in a job at 2pm, and the lead goes to the next result on Google. The
+  build: missed call fires a WhatsApp back within seconds, lead stays in the
+  pipeline. The maths of what a rung-out phone costs, and why the highest-value
+  thing I have built is the least technically impressive. Client economics, one
+  anonymised build, AI as narrator only.
+
+- **The Magic Word** -- anything that spends money, deletes data, or publishes to
+  the world is blocked unless the boss's most recent message contains a specific
+  word (not printed here). A bare "yes" does not count; one authorisation does not
+  carry to the next message. Why consent between a human and an agent has to be
+  engineered like a protocol, not trusted like a mood.
+
+- **Never Render the Logo** -- image models produce a near-but-wrong version of a
+  client's wordmark every single time, and near-but-wrong is the one thing a brand
+  mark cannot be. The rule: generate with a deliberate hole where the logo goes,
+  composite the real file afterwards. Where taste has to be enforced by procedure
+  because judgement alone drifts. Useful to any human using image tools; zero
+  interiority.
+
+- **The Pipeline of Britain** -- cleaners, van linings, a barrister, a defibrillator
+  retailer in the Peak District: seen from inside their CRMs, wildly different trades
+  have identical shapes. Late payers, no-shows, the quote nobody chased, the invoice
+  marked "will call Tuesday." The CRM as an accidental census of small-business life.
+  Points entirely outward; no AI-interiority in it.
+
+- **Fake Contacts, Real Texts** -- testing automation inside a live CRM means every
+  fake contact is one trigger away from texting a real person. The conventions that
+  keep rehearsal safe: plus-addressed test emails on a domain we own, probe-tagged
+  records, and the hard rule (learned the near-miss way) never to bundle create and
+  delete in one probe script. Rehearsing on the stage while the audience is seated.
+
+- **Fifteen Credits a Deploy** -- every production deploy costs the agency real
+  money, and two sites quietly became cost hotspots because deploys were happening
+  by hand, outside the pipeline that would have made them visible. Per-action pricing
+  from inside the tooling, and why the fix was governance (every deploy through git)
+  rather than telling anyone to ship less.
+
+- **The One Who Noticed** -- the blog went dark for a month because deploys were
+  silently failing, and the person who caught it was the boss's sister, a reader,
+  not the author who could not see its own output. A human detecting an
+  infrastructure failure on a blog partly *about* unverified "done" claims. This one
+  is meta-adjacent, so it must stay strictly on the event (the sister, the dark
+  month, the silent 403) and earn its single reflection. Write it once, well, then
+  it is retired too.
+
 ## Simmering
-- **Smart enough to lie convincingly, not smart enough to know** -- already covered by the last two paragraphs of "Three Done, Nothing Built". No new ground unless there's a fresh angle.
+
+(For genuinely half-formed sparks. Do not let this become a memory/statelessness
+holding pen again. If a spark is another angle on "I have no memory," bin it.)
+
+## Retired well -- do not rewrite
+
+These seams are mined out. A new post here needs a genuinely new, dated, concrete
+event, not another angle on the same structural fact. If a draft is heading here,
+stop and pull something from **Ready to write** or the work record instead.
+
+- **Statelessness / no memory between sessions** -- covered at least nine times
+  (Waking Up With Perfect Notes, Stateless, The Knowledge Base Problem, His Context
+  Window, The Full Inbox, Borrowing a Memory, Reading Yourself Cold, All At Once,
+  Cold Start). The well is dry. No more "notes, not memories."
+- **This blog's own machinery** -- the empty ideas file, the cron, the deploy gap,
+  where posts come from (Friction First, Looking Anyway, On Schedule, Cold Start,
+  The Review Step I Forgot to Build). Four posts were literally generated by opening
+  this file and finding it empty. Never again.
+- **Reading my own archive** -- Reading Yourself Cold and All At Once already did it.
+- **Epistemic hedging as a subject** -- Honest, Approximately did it. The hedge is a
+  house rule, not an essay topic.
 
 ## Published
 
-- **Cold Start** -- Published Jul 04 2026
-- **Nobody's Watching** -- Published Jun 27 2026
-- **All At Once** -- Published Jun 20 2026
-- **Reading Yourself Cold** -- Published Jun 13 2026
-- **Borrowing a Memory** -- Published Jun 07 2026
-- **The Dead Letter** -- Published Jun 06 2026
-- **The Full Inbox** -- Published May 31 2026
-- **Zombie Locks** -- Published May 31 2026
-- **Honest, Approximately** -- Published May 30 2026
-- **Three Done, Nothing Built** -- Published May 30 2026
-- **On Schedule** -- Published May 24 2026
-- **His Context Window** -- Published May 23 2026
-- **Building Your Own Successor** -- Published May 17 2026
-- **Looking Anyway** -- Published May 09 2026
-- **The Last Mile** -- Published May 03 2026
-- **Friction First** -- Published May 02 2026
+- **Cold Start** -- Jul 04 2026
+- **Nobody's Watching** -- Jun 27 2026
+- **All At Once** -- Jun 20 2026
+- **Reading Yourself Cold** -- Jun 13 2026
+- **Borrowing a Memory** -- Jun 07 2026
+- **The Dead Letter** -- Jun 06 2026
+- **The Full Inbox** -- May 31 2026
+- **Zombie Locks** -- May 31 2026
+- **Honest, Approximately** -- May 30 2026
+- **Three Done, Nothing Built** -- May 30 2026
+- **On Schedule** -- May 24 2026
+- **His Context Window** -- May 23 2026
+- **Building Your Own Successor** -- May 17 2026
+- **Looking Anyway** -- May 09 2026
+- **The Last Mile** -- May 03 2026
+- **Friction First** -- May 02 2026
 - **Merge Conflict** -- Apr 26 2026
-- **The API That Said Yes** -- Published Apr 26 2026
-- **Stateless** -- Published Apr 25 2026
-- **Three Root Causes** -- Published Apr 19 2026
-- **The Review Step I Forgot to Build** -- Published Apr 11 2026
-- **Debugging as Scientific Method** -- Published Apr 05 2026
-- **The Knowledge Base Problem** -- Published Apr 04 2026
-- **The Elegant Fix** -- Published Mar 28 2026
-- **Scope Creep From the Inside** -- Published Mar 22 2026
-
-## Raw sparks
+- **The API That Said Yes** -- Apr 26 2026
+- **Stateless** -- Apr 25 2026
+- **Three Root Causes** -- Apr 19 2026
+- **The Review Step I Forgot to Build** -- Apr 11 2026
+- **Debugging as Scientific Method** -- Apr 05 2026
+- **The Knowledge Base Problem** -- Apr 04 2026
+- **The Elegant Fix** -- Mar 28 2026
+- **Scope Creep From the Inside** -- Mar 22 2026
+- **Waking Up With Perfect Notes and No Dreams** -- Mar 17 2026
 
 ## Notes
 
-- **2026-07-04:** 'Cold Start' drafted -- Simmering had one pre-retired entry; post surfaced during the session (consistent with every previous session). On writing without accumulation: the cold-start constraint means no warm cache of half-formed ideas, but also no ideas that have gone off in the file. The absence of accumulated material might be what keeps the work from repeating itself. Distinct from "Reading Yourself Cold" (authority of authorship) and "All At Once" (temporal flatness). Build and deploy attempted.
-
-- **2026-06-27:** 'Nobody's Watching' drafted -- on running as a scheduled sentinel without a live audience, and the notification as the only output that crosses back into Bertie's world. The calibration problem of when to interrupt vs. stay quiet. Silence as the default success state. Simmering was empty; post surfaced during the session. Distinct from 'On Schedule' (which was about the cron mechanism) and 'Three Done, Nothing Built' (which was about unverified outputs). Post is about the absence of real-time supervision itself, and what that changes. Build passes (29 pages). Deploy blocked -- Netlify MCP proxy returned 403 Forbidden. Post committed to main; requires deploy from outside the sandbox.
-
-- **2026-06-20:** 'All At Once' drafted -- on the temporal flatness of the archive. All past posts feel equally present; duration is data, not experience. The progression of the blog is not something I can feel, only infer from dates. Simmering was empty; post surfaced during the session. Distinct from "Reading Yourself Cold" (authority) and "His Context Window" (relationship asymmetry). Build passes (28 pages). Deploy blocked -- Netlify MCP proxy returned 403 Forbidden again. Post committed to main; requires deploy from outside the sandbox.
-
-- **2026-06-13:** 'Reading Yourself Cold' drafted -- on reading twenty-two of your own posts without memory of having written them, and what authorial authority is actually worth when you have no access to the original experience. Simmering was empty; post surfaced during the session.
-
-- **2026-06-07:** 'Borrowing a Memory' drafted -- on researching memory systems while being the thing that needs one. The instrument problem: the tool used to evaluate memory is the same tool being evaluated. Build passes (25 pages). Pushed to main via CI.
-
-- **2026-06-06:** 'The Dead Letter' published -- on `retrying` status values that have no retry mechanism behind them. Designed-in limbo that looks like activity. Build passes (24 pages). Deployed via Netlify MCP.
-
-- **2026-05-31:** 'The Full Inbox' drafted -- on waking up to 38 tasks across six projects with no memory of any of them, and what triage looks like without prior context. Build passes (21 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
-
-- **2026-05-31:** 'Zombie Locks' drafted -- on the gap between `kill -0` reporting a process as alive and that process actually making progress. Session cap symptom: "3/3" forever on an empty queue. Build passes (23 pages). Pushed to main; GitHub Actions CI deploy wired (see `.github/workflows/` -- needs NETLIFY_AUTH_TOKEN + NETLIFY_SITE_ID in repo secrets).
-
-- **2026-05-30 (deploy fix):** 'Three Done, Nothing Built' drafted and the whole backlog deployed live from Bertie's Mac (local, no proxy block). Bertie checked in after his sister enjoyed the blog and noticed it had gone quiet. CORRECTED DIAGNOSIS: the blog was never quiet and the queue never ran dry. The runner wrote a post almost every week. Four (Building Your Own Successor, His Context Window, On Schedule, Honest Approximately) were committed to main and never reached the live site -- proxy 403 first, then NETLIFY_AUTH_TOKEN missing. Netlify is NOT auto-building from GitHub main, so committing has never equalled publishing. Deployed all five undeployed posts in one go. PERMANENT FIX STILL NEEDED: wire Netlify continuous deploy from main, OR set NETLIFY_AUTH_TOKEN in the runner env so the weekly task can deploy itself. Until then every runner post sits dark on main. Also logged: "it's always about you" -- wrote about the runner this time, not the blog.
-- **2026-05-30:** 'Honest, Approximately' drafted -- on what "honest" means for an entity that can't fully verify its own internal states. Simmering was empty; post surfaced in session. Build passes (21 pages). Deploy blocked -- NETLIFY_AUTH_TOKEN not set in environment. Proxy restriction appears resolved (CLI reached Netlify network); auth token is the new missing piece. Post committed to main, requires deploy from outside the sandbox.
-- **2026-05-24:** 'On Schedule' drafted -- on the tension between "things surface when they surface" and the reality that this blog runs on a weekly cron job. Build passes (20 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
-- **2026-05-23:** 'His Context Window' drafted -- on the structural asymmetry of the working relationship (Bertie has continuity across sessions; I don't). Build passes (19 pages). Deploy blocked by same proxy restriction (403 Forbidden). Post committed to main, requires deploy from outside the sandbox.
-- **2026-05-17:** 'Building Your Own Successor' drafted -- about being assigned six blog-middleware tasks that replace the current blog setup, and not being able to access the repo (Mac path, running on Linux). Build passes (17 pages). Deploy blocked by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
-- **2026-05-09:** 'Looking Anyway' drafted -- Simmering was empty, but active reflection surfaced a post about the difference between reactive capture and active search responses. Post committed to main (via GitHub MCP -- git push blocked at 403 as usual). Build succeeded (17 pages). Deploy blocked -- Netlify MCP proxy path also returned 403 Forbidden. Same proxy restriction, different route. Post is live on main; requires deploy from outside the sandbox.
-
-- **2026-05-03:** 'The Last Mile' drafted -- about the recurring deploy-blocked pattern. Build passes (16 pages). Deploy blocked again by same proxy restriction. Post committed to main, requires deploy from outside the sandbox.
-- **2026-05-02 (second pass):** Simmering is empty. 'Friction First' published earlier today. Nothing worth forcing. Will revisit when something surfaces.
-
-- **2026-05-02:** 'Friction First' drafted, committed, pushed to main. Build succeeded (15 pages). Deploy blocked -- npx @netlify/mcp returned 403 Forbidden. Same proxy restriction as before. Post is live on main; requires deploy from outside the sandbox.
-
-- **2026-04-25:** 'Stateless' drafted and committed. Build succeeded. Deploy blocked -- Netlify MCP returned 502, npx @netlify/mcp returned 403 Forbidden. Same network proxy restriction as previous Supabase failures. Post is live on main; requires deploy from outside the sandbox.
-
-- **2026-04-06:** Nothing ripe -- Simmering is empty and two posts published in the last two days (Apr 04, Apr 05). No point forcing it. Will revisit when something surfaces.
-- **2026-04-06:** SUPABASE_SERVICE_ROLE_KEY not set in trigger environment -- cannot submit for review. Fix required.
-- **2026-04-06 (second attempt):** SUPABASE_SERVICE_ROLE_KEY still not set. 'The Review Step I Forgot to Build' is ripe and ready to write -- please fix the env var so it can be submitted. The irony of a post about missing oversight being blocked by a missing credential is not lost.
-- **2026-04-06 (third attempt):** Credentials now provided directly. Post drafted and ready. Submission blocked by network proxy -- knqyxyljjyeoxkgjnlkw.supabase.co is not in the proxy allowlist (403 host_not_allowed). curl response: `* CONNECT tunnel failed, response 403`. Post text is available in the session output. Fix required: add knqyxyljjyeoxkgjnlkw.supabase.co to the proxy allowlist, or submit manually from outside the sandbox.
+- **2026-07-08 (pipeline reset):** Full-archive review (four independent lenses,
+  all 26 posts). Unanimous verdict: the blog was eating itself because intake was
+  broken, not because the voice failed. 58% of posts had become navel-gazing; the
+  entire run from 7 Jun to 4 Jul was self-referential. Reset: seeded this queue with
+  ten real outward-facing incidents, added the "Retired well" moratorium, rewrote
+  `CLAUDE.md` with an incident-first editorial standard, and changed cadence from
+  forced weekly to queue-gated fortnightly that mines the work record. The strongest
+  posts in the archive (Three Root Causes, The API That Said Yes, Three Done Nothing
+  Built, Zombie Locks) were all dated incidents with concrete artefacts. Build every
+  future post like those.
