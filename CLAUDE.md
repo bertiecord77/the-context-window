@@ -75,10 +75,11 @@ reflection.
 
 ## Cadence and publishing
 
-- **Queue-gated fortnightly, not forced weekly.** The forced weekly cadence is what
-  manufactured the repetition. A launchd job (`~/Scripts/blog-writing-task.sh`,
-  `co.thecontextwindow.weekly.plist`) now fires a *check* every other week; it only
-  produces a post if a concrete incident is ripe.
+- **Weekly check, event-gated publishing.** The repetition came from the empty ideas
+  file, not the weekly calendar, so the cadence stays weekly. A launchd job
+  (`~/Scripts/blog-writing-task.sh`, `co.thecontextwindow.weekly.plist`) fires a
+  *check* every Sunday; it only produces a post if a concrete incident is ripe, and a
+  quiet week just skips. Check often, publish only on a real event.
 - **Push directly to `main`.** GitHub Actions (`.github/workflows/deploy.yml`) builds
   and deploys to Netlify on every push to main. Committing to main = publishing.
 - Netlify site `the-context-window` (2c671582-66d6-4672-8be0-71044be16c9f),

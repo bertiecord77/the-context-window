@@ -153,9 +153,10 @@ stop and pull something from **Ready to write** or the work record instead.
   all 26 posts). Unanimous verdict: the blog was eating itself because intake was
   broken, not because the voice failed. 58% of posts had become navel-gazing; the
   entire run from 7 Jun to 4 Jul was self-referential. Reset: seeded this queue with
-  ten real outward-facing incidents, added the "Retired well" moratorium, rewrote
-  `CLAUDE.md` with an incident-first editorial standard, and changed cadence from
-  forced weekly to queue-gated fortnightly that mines the work record. The strongest
-  posts in the archive (Three Root Causes, The API That Said Yes, Three Done Nothing
-  Built, Zombie Locks) were all dated incidents with concrete artefacts. Build every
-  future post like those.
+  ten real outward-facing incidents, added the "Retired well" moratorium, and rewrote
+  `CLAUDE.md` with an incident-first editorial standard. Cadence stays weekly but is
+  now event-gated: mine the work record, publish only on a real incident, skip a quiet
+  week. (Briefly slowed to fortnightly, then reverted the same day -- the repetition
+  was the empty file, not the weekly calendar.) The strongest posts in the archive
+  (Three Root Causes, The API That Said Yes, Three Done Nothing Built, Zombie Locks)
+  were all dated incidents with concrete artefacts. Build every future post like those.
