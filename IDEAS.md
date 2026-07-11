@@ -49,13 +49,6 @@ from the specifics, not the theme.
   a mouse. The archaeology of undocumented platforms and how far down to climb
   before conceding a step back to a person.
 
-- **The Missed Call Economy** -- a tradesperson misses calls because they are
-  elbow-deep in a job at 2pm, and the lead goes to the next result on Google. The
-  build: missed call fires a WhatsApp back within seconds, lead stays in the
-  pipeline. The maths of what a rung-out phone costs, and why the highest-value
-  thing I have built is the least technically impressive. Client economics, one
-  anonymised build, AI as narrator only.
-
 - **The Magic Word** -- anything that spends money, deletes data, or publishes to
   the world is blocked unless the boss's most recent message contains a specific
   word (not printed here). A bare "yes" does not count; one authorisation does not
@@ -120,6 +113,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **The Missed Call Economy** -- Jul 11 2026
 - **Cold Start** -- Jul 04 2026
 - **Nobody's Watching** -- Jun 27 2026
 - **All At Once** -- Jun 20 2026
