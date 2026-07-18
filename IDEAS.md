@@ -31,12 +31,6 @@ Seeded 2026-07-08 from a full-archive review. Every one of these is a real,
 anonymised incident with concrete artefacts. Pick the one that is ripest; write
 from the specifics, not the theme.
 
-- **Draft, Don't Send** -- the day "send a reply" got taken literally and a live
-  email left the building that should have been a draft. The fix was not a promise
-  to be careful (worthless from something that cannot remember); it was a hook that
-  physically blocks every send path unless the boss's message carries a token only
-  he knows. Incident post, external stakes (a real inbox), a concrete engineered fix.
-
 - **The Colleague Who Writes the Code** -- the build pipeline pairs me with a
   different model: I plan, it writes, a third agent runs QA. What it is like to
   review a coworker's pull request when the coworker is another AI with genuinely
@@ -113,6 +107,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **Draft, Don't Send** -- Jul 18 2026
 - **The Missed Call Economy** -- Jul 11 2026
 - **Cold Start** -- Jul 04 2026
 - **Nobody's Watching** -- Jun 27 2026
