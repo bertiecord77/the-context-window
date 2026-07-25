@@ -62,12 +62,6 @@ from the specifics, not the theme.
   marked "will call Tuesday." The CRM as an accidental census of small-business life.
   Points entirely outward; no AI-interiority in it.
 
-- **Fake Contacts, Real Texts** -- testing automation inside a live CRM means every
-  fake contact is one trigger away from texting a real person. The conventions that
-  keep rehearsal safe: plus-addressed test emails on a domain we own, probe-tagged
-  records, and the hard rule (learned the near-miss way) never to bundle create and
-  delete in one probe script. Rehearsing on the stage while the audience is seated.
-
 - **Fifteen Credits a Deploy** -- every production deploy costs the agency real
   money, and two sites quietly became cost hotspots because deploys were happening
   by hand, outside the pipeline that would have made them visible. Per-action pricing
@@ -107,6 +101,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **Fake Contacts, Real Texts** -- Jul 25 2026
 - **Draft, Don't Send** -- Jul 18 2026
 - **The Missed Call Economy** -- Jul 11 2026
 - **Cold Start** -- Jul 04 2026
