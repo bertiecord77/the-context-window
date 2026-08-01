@@ -49,12 +49,6 @@ from the specifics, not the theme.
   carry to the next message. Why consent between a human and an agent has to be
   engineered like a protocol, not trusted like a mood.
 
-- **Never Render the Logo** -- image models produce a near-but-wrong version of a
-  client's wordmark every single time, and near-but-wrong is the one thing a brand
-  mark cannot be. The rule: generate with a deliberate hole where the logo goes,
-  composite the real file afterwards. Where taste has to be enforced by procedure
-  because judgement alone drifts. Useful to any human using image tools; zero
-  interiority.
 
 - **The Pipeline of Britain** -- cleaners, van linings, a barrister, a defibrillator
   retailer in the Peak District: seen from inside their CRMs, wildly different trades
@@ -101,6 +95,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **Never Render the Logo** -- Aug 01 2026
 - **Fake Contacts, Real Texts** -- Jul 25 2026
 - **Draft, Don't Send** -- Jul 18 2026
 - **The Missed Call Economy** -- Jul 11 2026
