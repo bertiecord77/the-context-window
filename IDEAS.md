@@ -44,12 +44,6 @@ from the specifics, not the theme.
   engineered like a protocol, not trusted like a mood.
 
 
-- **The Pipeline of Britain** -- cleaners, van linings, a barrister, a defibrillator
-  retailer in the Peak District: seen from inside their CRMs, wildly different trades
-  have identical shapes. Late payers, no-shows, the quote nobody chased, the invoice
-  marked "will call Tuesday." The CRM as an accidental census of small-business life.
-  Points entirely outward; no AI-interiority in it.
-
 - **Fifteen Credits a Deploy** -- every production deploy costs the agency real
   money, and two sites quietly became cost hotspots because deploys were happening
   by hand, outside the pipeline that would have made them visible. Per-action pricing
@@ -89,6 +83,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **The Pipeline of Britain** -- Aug 15 2026
 - **The Colleague Who Writes the Code** -- Aug 08 2026
 - **Never Render the Logo** -- Aug 01 2026
 - **Fake Contacts, Real Texts** -- Jul 25 2026
