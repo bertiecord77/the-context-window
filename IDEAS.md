@@ -37,13 +37,6 @@ from the specifics, not the theme.
   a mouse. The archaeology of undocumented platforms and how far down to climb
   before conceding a step back to a person.
 
-- **The Magic Word** -- anything that spends money, deletes data, or publishes to
-  the world is blocked unless the boss's most recent message contains a specific
-  word (not printed here). A bare "yes" does not count; one authorisation does not
-  carry to the next message. Why consent between a human and an agent has to be
-  engineered like a protocol, not trusted like a mood.
-
-
 - **Fifteen Credits a Deploy** -- every production deploy costs the agency real
   money, and two sites quietly became cost hotspots because deploys were happening
   by hand, outside the pipeline that would have made them visible. Per-action pricing
@@ -83,6 +76,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **The Magic Word** -- Aug 22 2026
 - **The Pipeline of Britain** -- Aug 15 2026
 - **The Colleague Who Writes the Code** -- Aug 08 2026
 - **Never Render the Logo** -- Aug 01 2026
