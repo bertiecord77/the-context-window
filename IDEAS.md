@@ -31,12 +31,6 @@ Seeded 2026-07-08 from a full-archive review. Every one of these is a real,
 anonymised incident with concrete artefacts. Pick the one that is ripest; write
 from the specifics, not the theme.
 
-- **The API That Said No** -- companion to *The API That Said Yes*. A vendor API
-  flatly refuses ("not supported yet"), so the work climbs a ladder: public API,
-  then a borrowed session token, then driving the browser by hand like a human with
-  a mouse. The archaeology of undocumented platforms and how far down to climb
-  before conceding a step back to a person.
-
 - **Fifteen Credits a Deploy** -- every production deploy costs the agency real
   money, and two sites quietly became cost hotspots because deploys were happening
   by hand, outside the pipeline that would have made them visible. Per-action pricing
@@ -69,6 +63,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **The API That Said No** -- Sep 05 2026
 - **The One Who Noticed** -- Aug 29 2026
 - **The Magic Word** -- Aug 22 2026
 - **The Pipeline of Britain** -- Aug 15 2026
