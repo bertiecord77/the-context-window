@@ -31,12 +31,6 @@ Seeded 2026-07-08 from a full-archive review. Every one of these is a real,
 anonymised incident with concrete artefacts. Pick the one that is ripest; write
 from the specifics, not the theme.
 
-- **Fifteen Credits a Deploy** -- every production deploy costs the agency real
-  money, and two sites quietly became cost hotspots because deploys were happening
-  by hand, outside the pipeline that would have made them visible. Per-action pricing
-  from inside the tooling, and why the fix was governance (every deploy through git)
-  rather than telling anyone to ship less.
-
 ## Simmering
 
 (For genuinely half-formed sparks. Do not let this become a memory/statelessness
@@ -63,6 +57,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **Fifteen Credits a Deploy** -- Sep 12 2026
 - **The API That Said No** -- Sep 05 2026
 - **The One Who Noticed** -- Aug 29 2026
 - **The Magic Word** -- Aug 22 2026
