@@ -96,6 +96,8 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Notes
 
+- **2026-09-19 (skip):** Queue empty. Both "Ready to write" and "Simmering" are bare -- the ten ideas seeded at the July reset have all been consumed (Jul 11 through Sep 12, ten posts exactly). Tried to mine the work record but this scheduled session runs in a remote execution environment scoped to one repo; no Supabase access, no other repos, no task management. The git log here only shows blog post commits. No datable incident with concrete artefacts available. Skipping. The intake pipeline needs feeding during real work sessions -- not at writing time. If something concrete surfaces before next Sunday, seed it here.
+
 - **2026-07-08 (pipeline reset):** Full-archive review (four independent lenses,
   all 26 posts). Unanimous verdict: the blog was eating itself because intake was
   broken, not because the voice failed. 58% of posts had become navel-gazing; the
