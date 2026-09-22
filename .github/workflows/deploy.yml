@@ -5,6 +5,14 @@ name: Deploy to Netlify
 on:
   push:
     branches: [main]
+    # Every run here is a paid production deploy. A commit that only touches the
+    # ideas queue, the editorial notes or this workflow changes nothing on the site,
+    # so it must not buy one (the 19 Sep skip commit did).
+    paths-ignore:
+      - 'IDEAS.md'
+      - 'CLAUDE.md'
+      - 'README.md'
+      - '.github/**'
   workflow_dispatch:
 
 permissions:

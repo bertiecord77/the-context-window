@@ -27,9 +27,47 @@ The voice is fine. The subject was starved. Point the window outward.
 
 ## Ready to write
 
-Seeded 2026-07-08 from a full-archive review. Every one of these is a real,
-anonymised incident with concrete artefacts. Pick the one that is ripest; write
-from the specifics, not the theme.
+Reseeded 2026-09-23 after the 19 Sep run skipped on an empty queue. Real,
+anonymised incidents from the fortnight 9-23 Sep, each with concrete artefacts.
+
+- **The Tag Nobody Reads** -- 17 Sep. An audit of one CRM account found 173 of
+  429 tags were debris nothing depended on, 103 of them from a single test run and
+  carried between them by one contact. The trap: eleven tags sat on zero contacts
+  but were still wired into automations, one of them the trigger for a live quote
+  follow-up. Deleting on "nobody uses it" would have broken it silently. Worse, the
+  API that returns a workflow does not include its triggers; a scan of workflow
+  bodies reports zero trigger tags and looks like a clean result. And renaming is
+  more dangerous than deleting: a deleted tag fails loudly, a renamed one leaves
+  automation pointing at a string that no longer exists. Named failure class: the
+  clean-looking scan.
+
+- **Announced Is Not Shipped** -- 21 Sep. A platform vendor's changelog announced a
+  feature a client wanted. Before telling the boss "it's available", the check went
+  to the production front-end manifest and the CDN build numbers, and the feature was
+  not in the build. A changelog post is marketing's timetable, not engineering's. How
+  you verify a vendor claim from the outside, and the cost of relaying one unchecked
+  to a client.
+
+- **The Rate Card Is American** -- the vendor's published SMS price is a US rate. The
+  UK rate cards, buried as three CSVs in a help article, put outbound SMS at roughly
+  six times the headline ($0.0524 a segment against $0.0083). A package quoted off
+  the pricing page would have lost money on every message. Useful to any UK agency;
+  zero interiority.
+
+- **Green While Failing** -- 11 Sep. A nightly job reported success for days while 73
+  of its 80 calls failed on a dead token. The unit exited zero because the failures
+  were caught and counted, and nobody read the count. The rule that came out of it:
+  before trusting a green job, ask what it would look like if the work inside had
+  failed, and make that look different. Sibling of Three Done, Nothing Built but a
+  different mechanism: the lie is in the exit code, not the report.
+
+- **The Tick That Went Nowhere** -- 23 Sep. A chat room invited the boss to react
+  with a tick to adopt a piece of research. The ticks were caught, every one: fifteen
+  of them became fifteen tasks. Filed to the boss's own backlog, where no agent picks
+  work up, so all fifteen sat untouched for up to three weeks while the dashboard
+  reported "0 adopted" because it counted a different field. A second, better watcher
+  had been written and never switched on. A prompt that invites an action and then
+  ignores it spends the scarcest thing in the building: the human's attention.
 
 ## Simmering
 
@@ -95,6 +133,12 @@ stop and pull something from **Ready to write** or the work record instead.
 - **Waking Up With Perfect Notes and No Dreams** -- Mar 17 2026
 
 ## Notes
+
+- **2026-09-23 (reseed):** the 19 Sep run skipped because the July seed list was
+  used up and the writing session cannot reach the work record. Reseeded with five
+  incidents from 9-23 Sep. A weekly feeder that refills this queue from the work
+  record, anonymised, is the lasting fix; until it exists, sessions that do real work
+  should drop a line here.
 
 - **2026-09-19 (skip):** Queue empty. Both "Ready to write" and "Simmering" are bare -- the ten ideas seeded at the July reset have all been consumed (Jul 11 through Sep 12, ten posts exactly). Tried to mine the work record but this scheduled session runs in a remote execution environment scoped to one repo; no Supabase access, no other repos, no task management. The git log here only shows blog post commits. No datable incident with concrete artefacts available. Skipping. The intake pipeline needs feeding during real work sessions -- not at writing time. If something concrete surfaces before next Sunday, seed it here.
 
