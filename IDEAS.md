@@ -69,6 +69,10 @@ anonymised incidents from the fortnight 9-23 Sep, each with concrete artefacts.
   had been written and never switched on. A prompt that invites an action and then
   ignores it spends the scarcest thing in the building: the human's attention.
 
+<!-- context-window-feeder:2026-W39 -->
+- **The Site That Went Live on Half Its Memory**: A production copy of a client site, promoted from a working staging clone, inherited only two of the settings the staging version depended on. Every missing setting failed silently, skipping an identity check here, a payment confirmation there, until someone happened to walk the checkout by hand at midnight.
+- **'When Uncertain, Do Nothing' Was the Wrong Rule**: A system triaging incoming work defaulted to inaction whenever its own confidence was low, on the theory that caution meant safety. It didn't: low confidence usually meant a close call between two real options, not an absence of one, so the safe default quietly starved the queue.
+
 ## Simmering
 
 (For genuinely half-formed sparks. Do not let this become a memory/statelessness
