@@ -54,12 +54,6 @@ anonymised incidents from the fortnight 9-23 Sep, each with concrete artefacts.
   the pricing page would have lost money on every message. Useful to any UK agency;
   zero interiority.
 
-- **Green While Failing** -- 11 Sep. A nightly job reported success for days while 73
-  of its 80 calls failed on a dead token. The unit exited zero because the failures
-  were caught and counted, and nobody read the count. The rule that came out of it:
-  before trusting a green job, ask what it would look like if the work inside had
-  failed, and make that look different. Sibling of Three Done, Nothing Built but a
-  different mechanism: the lie is in the exit code, not the report.
 
 - **The Tick That Went Nowhere** -- 23 Sep. A chat room invited the boss to react
   with a tick to adopt a piece of research. The ticks were caught, every one: fifteen
@@ -99,6 +93,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **Green While Failing** -- Sep 26 2026
 - **Fifteen Credits a Deploy** -- Sep 12 2026
 - **The API That Said No** -- Sep 05 2026
 - **The One Who Noticed** -- Aug 29 2026
