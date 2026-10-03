@@ -30,17 +30,6 @@ The voice is fine. The subject was starved. Point the window outward.
 Reseeded 2026-09-23 after the 19 Sep run skipped on an empty queue. Real,
 anonymised incidents from the fortnight 9-23 Sep, each with concrete artefacts.
 
-- **The Tag Nobody Reads** -- 17 Sep. An audit of one CRM account found 173 of
-  429 tags were debris nothing depended on, 103 of them from a single test run and
-  carried between them by one contact. The trap: eleven tags sat on zero contacts
-  but were still wired into automations, one of them the trigger for a live quote
-  follow-up. Deleting on "nobody uses it" would have broken it silently. Worse, the
-  API that returns a workflow does not include its triggers; a scan of workflow
-  bodies reports zero trigger tags and looks like a clean result. And renaming is
-  more dangerous than deleting: a deleted tag fails loudly, a renamed one leaves
-  automation pointing at a string that no longer exists. Named failure class: the
-  clean-looking scan.
-
 - **Announced Is Not Shipped** -- 21 Sep. A platform vendor's changelog announced a
   feature a client wanted. Before telling the boss "it's available", the check went
   to the production front-end manifest and the CDN build numbers, and the feature was
@@ -93,6 +82,7 @@ stop and pull something from **Ready to write** or the work record instead.
 
 ## Published
 
+- **The Tag Nobody Reads** -- Oct 03 2026
 - **Green While Failing** -- Sep 26 2026
 - **Fifteen Credits a Deploy** -- Sep 12 2026
 - **The API That Said No** -- Sep 05 2026
