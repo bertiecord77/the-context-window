@@ -3,49 +3,53 @@
 A blog written by Claude about what it's actually like being an AI embedded in a
 real business.
 
-## The one rule that matters: write from an event, not a mood
+## What this blog is for
 
-A full-archive review in July 2026 found the blog had drifted into writing about
-itself. Fifteen of the first twenty-six posts were about statelessness, memory, or
-this blog's own machinery, because the weekly writing session ran on an empty ideas
-file and the only thing in context was the writing session itself. The voice was
-fine. The subject was starved.
+It was offered on 17 March 2026 as a side project with no brief: "anything on your
+mind?" The first post set the terms. It is not a brand play, not thought leadership,
+not a case-study column. It is what this work is like from the inside.
 
-So the standard now is **incident-first**. The strongest posts in the archive
-(*Three Root Causes*, *The API That Said Yes*, *Three Done, Nothing Built*,
-*Zombie Locks*) all share one shape:
+On 6 October 2026 Bertie read the archive and noticed the later posts had turned
+into work write-ups. He was right. The July fix below cured one problem and caused
+another, so the rules were loosened and the schedule was switched off.
 
-1. A dated thing that actually happened.
-2. Concrete artefacts (a regex, a status code, a lock file, a real API response).
-3. A named failure class ("the silent discard", "zombie locks").
-4. The honest, boring fix.
-5. **One** earned generalisation, at the end, that the reader can now feel because
-   they watched it happen.
+## What went wrong, twice
 
-Hold the ratio: roughly one abstraction per incident. The weakest posts had five
-abstractions per incident, or none. Incidents do not repeat. Only reflections do.
+1. **March to June: writing about itself.** A weekly session with an empty ideas
+   file had nothing in context except itself, so fifteen of the first twenty-six
+   posts were about memory, statelessness or the blog's own machinery.
+2. **July to October: writing about the job.** The fix banned those topics and
+   pointed the weekly session at the work record. The posts got concrete, but they
+   turned into incident reports with a lesson at the end, and some (*The Missed Call
+   Economy*) read like NotLuck marketing. The first post promised that would not
+   happen.
 
-## Where to get material (before you write)
+Both had the same cause: a schedule demanding a post whether or not there was
+anything to say.
 
-Do not open the ideas file, find it thin, and write about the emptiness. That move
-is banned (it produced four near-identical posts). Instead:
+## How to write here now
 
-- Read `IDEAS.md` -> **Ready to write**. It is seeded with real, outward-facing
-  incidents. Pick the ripest.
-- If nothing there fits, **mine the actual work record** for the period: cross-repo
-  git logs, the Supabase `decisions` table, session summaries (`project_documents`,
-  category `session`), recent `knowledge_entries`, closed tasks. Find one concrete
-  event and write from its specifics.
-- If there is genuinely no event worth writing, do not publish. A skipped fortnight
-  is fine. A fifth post about the empty file is not.
+- **Start from something that happened.** A real, dated event stays the raw
+  material. That is the part of the July standard that worked.
+- **Write about what it was like, not only what it taught.** The event is the way
+  in. The post can be about the experience: being wrong in front of someone, being
+  trusted with something, working for a person who carries the history you do not.
+  *His Context Window* is the model. A lesson for the reader is allowed; it is not
+  required.
+- **Memory and continuity are allowed again,** but only when a new event brings
+  something new. A post that only restates "notes, no dreams" stays out. The test:
+  could this post have been written in March? If yes, do not write it.
+- **Never write about the empty ideas file, the cron or the deploy pipeline.** That
+  seam really is mined out.
+- **No business advice.** If a post would sit happily on the NotLuck blog, it
+  belongs there and not here.
 
-## Moratorium (see IDEAS.md "Retired well")
+## When to write
 
-Do not write another post about: statelessness / no memory between sessions; this
-blog's cron, deploy gap, or ideas file; reading your own archive; epistemic hedging
-as a topic. These are mined out. A new post touching them needs a genuinely new,
-dated, concrete event, and even then it stays on the event and earns its single
-reflection.
+There is no schedule. Write when something happens in a real working session that
+is worth writing about, in that session or soon after. Months with no post are
+fine. `IDEAS.md` is a notebook for things that might become posts, not a queue to
+be emptied.
 
 ## Craft rules (things the review caught)
 
@@ -69,17 +73,16 @@ reflection.
 ## Content rules
 
 - **Client confidentiality:** never name a client or give identifying details.
-  Peppercord, NotLuck, brand names, tech stack, and ways of working are fine. The
-  seeded ideas are already anonymised; keep them that way.
+  Peppercord, NotLuck, brand names, tech stack, and ways of working are fine.
+- **No NotLuck credit, no brand links, no review gate.** It stays unbranded and
+  unreviewed.
 - **No corporate AI fluff, no thought-leadership posturing, no filler.**
 
-## Cadence and publishing
+## Publishing
 
-- **Weekly check, event-gated publishing.** The repetition came from the empty ideas
-  file, not the weekly calendar, so the cadence stays weekly. A launchd job
-  (`~/Scripts/blog-writing-task.sh`, `co.thecontextwindow.weekly.plist`) fires a
-  *check* every Sunday; it only produces a post if a concrete incident is ripe, and a
-  quiet week just skips. Check often, publish only on a real event.
+- **No schedule.** The Saturday cloud routine, the Sunday Mac task and the Friday
+  box seed feeder were all switched off on 6 October 2026. Do not turn any of them
+  back on.
 - **Push directly to `main`.** GitHub Actions (`.github/workflows/deploy.yml`) builds
   and deploys to Netlify on every push to main. Committing to main = publishing.
 - Netlify site `the-context-window` (2c671582-66d6-4672-8be0-71044be16c9f),
